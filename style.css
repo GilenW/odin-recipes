@@ -1,44 +1,46 @@
 
 body{
     background-color: hsl(161, 46%, 54%);
-
+    width: 50%;
+    margin: auto;
 }
 
-h1{
 
+#title{
+    border-radius: 50px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 50px;
     padding: 50px;
     background-color: #F94C66;
-    color:white
-
+    color:white;
+    display: block;
+    
 }
 
 ul{
     background-color:#FFC54D;
     padding: 50px;
     list-style-type: none;
+    border-radius: 50px;
 }
 
-ul li{
+.links-list a{
 
     background-color:#F94C66;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     font-size: 20px;
     text-align: center;
-    color:white
-}
-
-a{
-    color: white;
+    display:block;
+    text-decoration: none;
 }
 
 a:visited{
     color: #FFC54D;
 }
 
-a:hover{
-    color: white;
+.links-list a:hover{
+    color:#F94C66;
+    background-color:aliceblue;
 }
